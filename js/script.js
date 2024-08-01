@@ -88,7 +88,7 @@ function showServerDetails(serverId) {
         const server = data.servers.find(s => s.id == serverId);
         if (server) {
             updatePosterContent(server.posters, 0);
-            document.querySelector('.server-description').innerHTML = `<h2>${server.name}</h2>${server.fullDescription}`;
+            document.querySelector('.server-description-1').innerHTML = `<h2>${server.name}</h2>${server.fullDescription}`;
 
             startPosterInterval(server.posters);
             

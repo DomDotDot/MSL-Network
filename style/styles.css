@@ -31,6 +31,20 @@ body {
     overflow: hidden;
 }
 
+.logo {
+    height: 50px;
+}
+
+.game-logo {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.game-logo img {
+    max-width: 80%;
+    height: auto;
+}
+
 header {
     padding: 1rem 0;
 }
@@ -74,6 +88,18 @@ main {
 h1 {
     font-size: 4rem;
     margin-bottom: 2rem;
+
+    background: linear-gradient(to bottom, var(--accent-color-start), var(--accent-color-end));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#logotext{
+    background: linear-gradient(to bottom, var(--accent-color-start), var(--accent-color-end));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 button {

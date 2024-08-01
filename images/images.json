@@ -1,17 +1,8 @@
 {
-    "logo": "images/LoRLogoLarge.png",
+    "logo": "images/MSL-Logo.png",
+    "gameLogo": "images/MSL-Logo.png",
     "heroImages": [
-      "images/LoRBanner1.png",
-      "images/LoRBanner2.png",
-      "images/LoRBanner3.png",
-      "images/LoRBanner1.png"
-    ],
-    "gameLogo": "images/LoRBannerLogo.png",
-    "abnormalities": "abnormalities.jpg",
-    "energy": "energy.jpg",
-    "facilityMap": "facility-map.jpg",
-    "cityMap": "city-map.jpg",
-    "robloxIcon": "images/icons8-roblox-50.png",
-    "discordIcon": "images/icons8-discord-50.png",
-    "githubIcon": "images/icons8-github-64.png"
+
+    ]
+
   }

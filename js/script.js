@@ -3,6 +3,40 @@ let currentServerId;
 let currentPosterIndex = 0;
 let posterInterval;
 
+fetch('images/images.json')
+    .then(response => response.json())
+    .then(data => {
+        // Update the image sources in the HTML
+        updateImageSource(document.querySelector('.logo'), data.logo);
+        updateImageSource(document.querySelector('.hero-image'), data.heroImages[0]);
+        updateImageSource(document.querySelector('.game-logo img'), data.gameLogo);
+        updateImageSource(document.querySelectorAll('.nav-buttons .nav-button img')[0], data.map);
+        updateImageSource(document.querySelectorAll('.footer-links img')[0], data.minecraftIcon);
+        updateImageSource(document.querySelectorAll('.footer-links img')[1], data.discordIcon);
+        updateImageSource(document.querySelectorAll('.footer-links img')[2], data.githubIcon);
+    })
+    .catch(error => console.error('Error fetching image sources:', error));
+
+    function updateImageSource(imgElement, imageSrc) {
+        const placeholderTemplate = 'https://via.placeholder.com/{width}x{height}.png?text={text}';
+        const width = 300; // Adjust the default width as needed
+        const height = 200; // Adjust the default height as needed
+        const defaultText = 'Image not found'; // Adjust the default text as needed
+    
+        const img = new Image();
+        img.onload = () => {
+            imgElement.src = imageSrc;
+        };
+        img.onerror = () => {
+            const placeholderUrl = placeholderTemplate
+                .replace('{width}', width)
+                .replace('{height}', height)
+                .replace('{text}', encodeURIComponent(defaultText));
+            imgElement.src = placeholderUrl;
+        };
+        img.src = imageSrc;
+    }
+    
 
 // Загрузка данных о серверах из JSON
 function loadServerData() {

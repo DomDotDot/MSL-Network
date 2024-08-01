@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSL Network - Minecraft Сервер</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <div class="background"></div>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#servers">Наши сервера</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>MSL Network</h1>
+            <button id="start-btn">Начать</button>
+            <button id="copy-ip">IP: play.msl-network.com</button>
+        </section>
+
+        <section id="servers">
+            <h2>Наши сервера</h2>
+            <div id="server-list"></div>
+        </section>
+
+        <div id="server-details" class="section" style="display: none;">
+            <div class="poster-container">
+              <div class="poster-gradient"></div>
+              <div class="poster-text"></div>
+              <div class="poster-navigation"></div>
+            </div>
+          
+            <div class="server-info">
+              <div class="server-description"></div>
+          
+              <div class="server-video">
+                <div class="server-tags"></div>
+                <div id="youtube-player"></div>
+                    <button class="buy-btn">Приобрести</button>
+                </div>
+            </div>
+            <div class="server-features"></div>
+        </section>
+
+        <section id="about">
+            <h2>О нас</h2>
+            <p>MSL-Network - серия приватных серверо Майнкрафт (Minecraft) посвящённый строительству красивых и масштабных построек и выживанию в приятной атмосфере.
+                Именно у нас вы сможете проверить свои навыки строительства и выживания, завести новые знакомства и посоревноваться с другими игроками.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>MSL Network</h3>
+            <p>&copy; 2024 MSL Network. Все права защищены.</p>
+            <ul class="documents">
+                <li><a href="#">Оферта</a></li>
+                <li><a href="#">Правила</a></li>
+                <li><a href="#">Политика конфиденциальности</a></li>
+            </ul>
+            <ul class="contacts">
+                <li><a href="#">Discord</a></li>
+                <li><a href="#">VK</a></li>
+                <li><a href="mailto:info@msl-network.com">Email</a></li>
+                <li><a href="https://github.com/msl-network">GitHub</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

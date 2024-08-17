@@ -1,0 +1,163 @@
+{
+  "servers": [
+    {
+      "id": 0,
+      "name": "Survival",
+      "description": "Classic survival in a Minecraft world with a friendly community",
+      "fullDescription": "Immerse yourself in the exciting world of survival, where every day is a new adventure. Build, explore and fight alongside other players in our friendly community.",
+      "image": "",
+      "trailer": "",
+      "tags": [
+        "Survival",
+        "PvE",
+        "Vanilla+",
+        "Economy",
+        "No Transactions",
+        "No Private",
+        "Whitelist",
+        "Role-play",
+        "No Wipe",
+        "No Mini-games"
+      ],
+      "posters": [
+        {
+          "title": "Explore",
+          "image": "",
+          "text": "The vast expanse of our survival world"
+        },
+        {
+          "title": "Build",
+          "image": "",
+          "text": ""
+        },
+        {
+          "title": "Fight",
+          "image": "",
+          "text": "Monsters and mine rare resources"
+        }
+      ],
+      "features": [
+        {
+          "name": "Big World",
+          "description": "A 50000x50000 block size map full of amazing biomes and structures",
+          "image": ""
+        },
+        {
+          "name": "Economy",
+          "description": "Developed economic system with stores and auctions",
+          "image": ""
+        },
+        {
+          "name": "Guilds",
+          "description": "Create Guilds, build joint bases and participate in clan wars",
+          "image": ""
+        },
+        {
+          "name": "Regular monthly events",
+          "description": "Participate in regular events and get unique rewards",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "Mini-games",
+      "description": "A variety of mini-games for fun with friends",
+      "fullDescription": "Dive into the world of exciting mini-games, where everyone will find entertainment to their liking. From classic modes to unique author's developments - fun is guaranteed!",
+      "image": "",
+      "trailer": "",
+      "tags": [
+        "Mini-games",
+        "PvP",
+        "Team work games",
+        "Competitive"
+      ],
+      "posters": [
+        {
+          "image": "",
+          "text": "Fight in the skies in exciting Sky Wars battles"
+        },
+        {
+          "image": "",
+          "text": "Become the best builder in Build Battle"
+        },
+        {
+          "image": "minigames_poster3.jpg",
+          "text": "Solve all the mysteries in the detective game Murder Mystery"
+        }
+      ],
+      "features": [
+        {
+          "name": "Bed Wars",
+          "description": "Defend your bed and destroy others' in epic team battles",
+          "image": ""
+        },
+        {
+          "name": "Sky Wars",
+          "description": "Fight on floating islands, gather resources and become the last survivor",
+          "image": ""
+        },
+        {
+          "name": "Build Battle",
+          "description": "Demonstrate your construction skills in a timed competition",
+          "image": ""
+        },
+        {
+          "name": "Murder Mystery",
+          "description": "Find the killer or go undetected in this thrilling detective game",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "Creative",
+      "description": "Unlimited possibilities for creativity and construction",
+      "fullDescription": "Let your imagination run wild on our creative server. Here you will find all the tools to create the most incredible constructions and fulfill any ideas.",
+      "image": "",
+      "trailer": "",
+      "tags": [
+        "Creative",
+        "Building",
+        "WorldEdit",
+        "Contests"
+      ],
+      "posters": [
+        {
+          "image": "",
+          "text": "Create majestic castles and cities"
+        },
+        {
+          "image": "",
+          "text": "Bring your boldest architectural ideas to life"
+        },
+        {
+          "image": "",
+          "text": "Participate in contests and show your talent to the entire server"
+        }
+      ],
+      "features": [
+        {
+          "name": "Large plots",
+          "description": "Get your hands on a huge plot of land to build on",
+          "image": ""
+        },
+        {
+          "name": "WorldEdit",
+          "description": "Use the powerful WorldEdit tool to build with speed",
+          "image": ""
+        },
+        {
+          "name": "Construction contests",
+          "description": "Regular competitions with valuable prizes for the best builders",
+          "image": ""
+        },
+        {
+          "name": "Gallery of Fame",
+          "description": "Your best constructions will be showcased in a special gallery",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}

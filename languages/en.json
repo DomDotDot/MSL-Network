@@ -1,161 +1,161 @@
 {
   "servers": [
     {
-      "id": 1,
-      "name": "Выживание",
-      "description": "Классическое выживание в мире Minecraft с дружелюбным сообществом",
-      "fullDescription": "Погрузитесь в захватывающий мир выживания, где каждый день - новое приключение. Стройте, исследуйте и сражайтесь бок о бок с другими игроками в нашем дружном сообществе.",
-      "image": "survival.jpg",
-      "trailer": "wgsPrKTzm4w",
+      "id": 0,
+      "name": "Survival",
+      "description": "Classic survival in a Minecraft world with a friendly community",
+      "fullDescription": "Immerse yourself in the exciting world of survival, where every day is a new adventure. Build, explore and fight alongside other players in our friendly community.",
+      "image": "",
+      "trailer": "",
       "tags": [
-        "Выживание",
+        "Survival",
         "PvE",
-        "Ванилла+",
-        "Экономика",
-        "Без доната",
-        "Без привата",
+        "Vanilla+",
+        "Economy",
+        "No Transactions",
+        "No Private",
         "Whitelist",
-        "RolePlay",
-        "Без Wipe",
-        "Без мини-игр"
+        "Role-play",
+        "No Wipe",
+        "No Mini-games"
       ],
       "posters": [
         {
-          "title": "Исследуйте",
-          "image": "images/survival_banner1.webp",
-          "text": "Бескрайние просторы нашего мира выживания"
+          "title": "Explore",
+          "image": "",
+          "text": "The vast expanse of our survival world"
         },
         {
-          "title": "Стройте",
-          "image": "images/survival_banner2.webp",
-          "text": "Невероятные сооружения и развивайте свою базу"
+          "title": "Build",
+          "image": "",
+          "text": ""
         },
         {
-          "title": "Сражайтесь",
-          "image": "images/survival_banner3.webp",
-          "text": "С монстрами и добывайте редкие ресурсы"
+          "title": "Fight",
+          "image": "",
+          "text": "Monsters and mine rare resources"
         }
       ],
       "features": [
         {
-          "name": "Огромный мир",
-          "description": "Карта размером 50000x50000 блоков, полная удивительных биомов и структур",
-          "image": "images/survival_feature2.png"
+          "name": "Big World",
+          "description": "A 50000x50000 block size map full of amazing biomes and structures",
+          "image": ""
         },
         {
-          "name": "Экономика",
-          "description": "Развитая экономическая система с магазинами и аукционами",
-          "image": "images/survival_feature2.png"
+          "name": "Economy",
+          "description": "Developed economic system with stores and auctions",
+          "image": ""
         },
         {
-          "name": "Кланы",
-          "description": "Создавайте кланы, стройте совместные базы и участвуйте в клановых войнах",
-          "image": "images/survival_feature1.png"
+          "name": "Guilds",
+          "description": "Create Guilds, build joint bases and participate in clan wars",
+          "image": ""
         },
         {
-          "name": "Ежемесячные ивенты",
-          "description": "Участвуйте в регулярных мероприятиях и получайте уникальные награды",
-          "image": "images/survival_feature1.png"
+          "name": "Regular monthly events",
+          "description": "Participate in regular events and get unique rewards",
+          "image": ""
         }
       ]
     },
     {
-      "id": 2,
-      "name": "Мини-игры",
-      "description": "Разнообразные мини-игры для веселого времяпрепровождения с друзьями",
-      "fullDescription": "Окунитесь в мир захватывающих мини-игр, где каждый найдет развлечение по душе. От классических режимов до уникальных авторских разработок - веселье гарантировано!",
-      "image": "minigames.jpg",
-      "trailer": "wgsPrKTzm4w",
+      "id": 0,
+      "name": "Mini-games",
+      "description": "A variety of mini-games for fun with friends",
+      "fullDescription": "Dive into the world of exciting mini-games, where everyone will find entertainment to their liking. From classic modes to unique author's developments - fun is guaranteed!",
+      "image": "",
+      "trailer": "",
       "tags": [
-        "Мини-игры",
+        "Mini-games",
         "PvP",
-        "Командные игры",
-        "Соревновательный"
+        "Team work games",
+        "Competitive"
       ],
       "posters": [
         {
-          "image": "minigames_poster1.jpg",
-          "text": "Сражайтесь в небесах в захватывающих баталиях Sky Wars"
+          "image": "",
+          "text": "Fight in the skies in exciting Sky Wars battles"
         },
         {
-          "image": "minigames_poster2.jpg",
-          "text": "Станьте лучшим строителем в Build Battle"
+          "image": "",
+          "text": "Become the best builder in Build Battle"
         },
         {
           "image": "minigames_poster3.jpg",
-          "text": "Раскройте все тайны в детективной игре Murder Mystery"
+          "text": "Solve all the mysteries in the detective game Murder Mystery"
         }
       ],
       "features": [
         {
           "name": "Bed Wars",
-          "description": "Защищайте свою кровать и уничтожайте чужие в эпичных командных сражениях",
-          "image": "bedwars.jpg"
+          "description": "Defend your bed and destroy others' in epic team battles",
+          "image": ""
         },
         {
           "name": "Sky Wars",
-          "description": "Сражайтесь на парящих островах, собирайте ресурсы и станьте последним выжившим",
-          "image": "skywars.jpg"
+          "description": "Fight on floating islands, gather resources and become the last survivor",
+          "image": ""
         },
         {
           "name": "Build Battle",
-          "description": "Продемонстрируйте свои строительные навыки в соревновании на время",
-          "image": "buildbattle.jpg"
+          "description": "Demonstrate your construction skills in a timed competition",
+          "image": ""
         },
         {
           "name": "Murder Mystery",
-          "description": "Найдите убийцу или останьтесь незамеченным в этой захватывающей детективной игре",
-          "image": "murdermystery.jpg"
+          "description": "Find the killer or go undetected in this thrilling detective game",
+          "image": ""
         }
       ]
     },
     {
-      "id": 3,
-      "name": "Креатив",
-      "description": "Безграничные возможности для творчества и строительства",
-      "fullDescription": "Дайте волю своему воображению на нашем креативном сервере. Здесь вы найдете все инструменты для создания самых невероятных построек и реализации любых идей.",
-      "image": "creative.jpg",
-      "trailer": "wgsPrKTzm4w",
+      "id": 0,
+      "name": "Creative",
+      "description": "Unlimited possibilities for creativity and construction",
+      "fullDescription": "Let your imagination run wild on our creative server. Here you will find all the tools to create the most incredible constructions and fulfill any ideas.",
+      "image": "",
+      "trailer": "",
       "tags": [
-        "Креатив",
-        "Строительство",
+        "Creative",
+        "Building",
         "WorldEdit",
-        "Конкурсы"
+        "Contests"
       ],
       "posters": [
         {
-          "image": "creative_poster1.jpg",
-          "text": "Создавайте величественные замки и города"
+          "image": "",
+          "text": "Create majestic castles and cities"
         },
         {
-          "image": "creative_poster2.jpg",
-          "text": "Воплощайте в жизнь самые смелые архитектурные идеи"
+          "image": "",
+          "text": "Bring your boldest architectural ideas to life"
         },
         {
-          "image": "creative_poster3.jpg",
-          "text": "Участвуйте в конкурсах и покажите свой талант всему серверу"
+          "image": "",
+          "text": "Participate in contests and show your talent to the entire server"
         }
       ],
       "features": [
         {
-          "name": "Большие участки",
-          "description": "Получите в распоряжение огромный участок для строительства",
-          "image": "large_plots.jpg"
+          "name": "Large plots",
+          "description": "Get your hands on a huge plot of land to build on",
+          "image": ""
         },
         {
           "name": "WorldEdit",
-          "description": "Используйте мощный инструмент WorldEdit для быстрого строительства",
-          "image": "worldedit.jpg"
+          "description": "Use the powerful WorldEdit tool to build with speed",
+          "image": ""
         },
         {
-          "name": "Конкурсы построек",
-          "description": "Регулярные конкурсы с ценными призами для лучших строителей",
-          "image": "building_contests.jpg"
+          "name": "Construction contests",
+          "description": "Regular competitions with valuable prizes for the best builders",
+          "image": ""
         },
         {
-          "name": "Галерея лучших работ",
-          "description": "Ваши лучшие постройки будут showcased в специальной галерее",
-          "image": "showcase_gallery.jpg"
+          "name": "Gallery of Fame",
+          "description": "Your best constructions will be showcased in a special gallery",
+          "image": ""
         }
       ]
     }
